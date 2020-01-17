@@ -1,5 +1,13 @@
 # calculator.py
 
+a = input("Enter the First Number: ")
+a = float(a)
+b = input("Enter the Second Number: ")
+b = float(b)
+x = input(" Enter the first letter of the operation of interest (a,s,m,d): ")
+
+
+
 def add(x,y):
     z = x + y
     print("{} + {} = {}".format(x,y,z))
@@ -21,26 +29,12 @@ def div(x,y):
     return z
 
 
-x = input("Enter a letter: ")
-print("You entered {}".format(x))
-
-y = input("Enter a second letter: ")
-
-print("This is the second letter -- {}. This is a line of code.".format(y))
 
 if x == "a":
-        d = add(100,200)
-        if d > 100:
-            print("{} is too high!".format(d))
+        d = add(a,b)
 elif x == "s":
-        d = sub(100,200)
-        if d > 100:
-            print("{} is too high!".format(d))
+        d = sub(a,b)
 elif x == "m":
-        d = mult(100,200)
-        if d > 100:
-            print("{} is too high!".format(d))
+        d = mult(a,b)
 elif x == "d":
-        d = div(100,200)
-        if d > 100:
-            print("{} is too high!".format(d))
+        d = div(a,b)
