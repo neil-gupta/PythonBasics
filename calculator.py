@@ -4,7 +4,7 @@ a = input("Enter the First Number: ")
 a = float(a)
 b = input("Enter the Second Number: ")
 b = float(b)
-x = input(" Enter the first letter of the operation of interest (a,s,m,d): ")
+x = input("Enter the first letter of the operation of interest (a,s,m,d): ")
 
 
 
